@@ -1,0 +1,150 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p{
+  font-size: 1.6rem;
+}
+h1{
+  font-size: 5rem;
+}
+
+.app{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(blue, rgb(68, 137, 228));
+  color: #fff;
+}
+
+/* .app::before{
+  content: '';
+
+} */
+
+.search{
+  text-align: center;
+  padding: 1rem;
+}
+.search input{
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+::placeholder{
+  color: white;
+}
+
+.container{
+  max-width: 700px;
+  min-height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburguer{
+  cursor: pointer;
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.hamburguer:hover{
+  background-color: #ffffff2f;
+}
+.menu{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  color: black;
+  width: 200px;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px ;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.249);
+}
+
+.close{
+  width: fit-content;
+  padding: 5px;
+  margin: 5px;
+  float: right;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.up{
+  top: -90%;
+}
+.menu .divs{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.menu .divs:hover , .close:hover{
+  background-color: rgba(0, 0, 0, 0.321);
+  cursor: pointer;
+}
+.top{
+  width: 100%;
+  margin: 1rem auto;
+}
+.button{
+  background-color: #ffffff64;
+  border:1px solid #ffffffb7;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+.button:hover{
+  background-color: #ffffffa0;
+  color: #00000090;
+}
+.description{
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.bold{
+  font-weight: 700;
+}
