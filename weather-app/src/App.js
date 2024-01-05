@@ -1,15 +1,13 @@
 import axios from "axios"
 import { useState } from "react";
-
-
-
+ 
 function App() {
  
   const [info, setInfo] = useState({})
   const [ location, setLocation] = useState()
   const [listAdded, setListAdded] = useState([])
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=dbfc58248986c6dec618446e83e49191&units=metric`
+  const url = `http://localhost:8000/weather/${location}`
 
  const search = (e) => {
   if(e.key === 'Enter'){
@@ -20,7 +18,7 @@ function App() {
   }
  }
  function searchList(e,location) {
-  axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=dbfc58248986c6dec618446e83e49191&units=metric`).then((resp) => {
+  axios.get(`http://localhost:8000/weather/${location}`).then((resp) => {
     setInfo(resp.data)
   }).catch((err)=> {console.log(err)})
   setLocation('')
