@@ -129,9 +129,7 @@ h1{
 }
 .description{
   position: relative;
-  right: -90%;
-  transform-origin: 0 0;
-  transform: rotate(270deg);
+  right: -85%;
 }
 
 .bottom{
