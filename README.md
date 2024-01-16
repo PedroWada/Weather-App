@@ -17,6 +17,7 @@ When you click the icon all the cities chosen will be there.
 # Technologies
 <li>React</li>
 <li>CSS</li>
+<li>Javascript</li>
 <li>Node (I used node to create a little server to hide the Api key.)</li>
 
 # Setup
