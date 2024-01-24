@@ -1,5 +1,5 @@
 # Weather App
-WeatherApp is a app that you can search for a city in the world and visualize the city weather info in real time. 
+WeatherApp is a app that you can search for a city in the world and visualize the city's weather info in real time. 
 
 
 # Screenshots
