@@ -1,4 +1,3 @@
-const PORT = 8000
 const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
@@ -15,6 +14,6 @@ app.get('/weather/:location', (req, res) => {
       }).catch((err)=> {console.log(err)})
 })
 
-app.listen(PORT,()=> {
-    console.log('Server running on port ' + PORT)
+app.listen(8000,()=> {
+    console.log('Server running on port ' + 8000)
 })
