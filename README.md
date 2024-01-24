@@ -22,5 +22,5 @@ When you click the icon all the cities chosen will be there.
 
 # Setup
 Download or clone repository.
-Open 2 terminals and change directory to weather-app file in both.
-Npm run server in one and npm start in the other one.
+Open terminal and change directory to weather-app file.
+Npm run start.
