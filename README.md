@@ -1,6 +1,7 @@
 # Weather App
 WeatherApp is a app that you can search for a city in the world and visualize the city's weather info in real time. 
 
+Link: https://tangerine-gingersnap-134422.netlify.app/
 
 # Screenshots
 <img width="700" alt="Screenshot 2024-01-15 at 12 59 04 am" src="https://github.com/PedroWada/Weather-App/assets/93954117/49be8a5c-1118-42d7-9ccf-4b5b7c4d846f">
